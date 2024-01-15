@@ -7,6 +7,7 @@
 	--large-wd-header: 1440px;
 	--large-ht-header: 80px;
 	--large-txt-logo: 18px;
+--h2-ft-sz: clamp(1.225rem, 4vw, 2.25rem);
 	--small-ht-header: clamp(2rem, 8vh, 4rem);
 }
 .header {
