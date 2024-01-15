@@ -19,11 +19,11 @@
 	font-size: 1rem;
 	color: var(--nav-links-clr);
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 700px) {
 	.sec__metric{max-width: 70vw;}
 	.sec__metric > div {flex-basis: 100%;}
 }
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 700px) and (max-width: 768px) {
 	.sec__metric {
 		max-width: 80vw;gap: 1rem;}
 	.sec__metric > div {flex: 1;}
