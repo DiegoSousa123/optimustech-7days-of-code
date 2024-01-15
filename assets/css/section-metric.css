@@ -8,7 +8,7 @@
 }
 .sec__metric > div {flex: 1 0 21%;}
 .sec__metric__number {
-	font-size: 3.75rem;
+	font-size: clamp(2.5rem, 6vw, 3.75rem);
 	font-weight: 600;
 	color: var(--register-clr);
 }
