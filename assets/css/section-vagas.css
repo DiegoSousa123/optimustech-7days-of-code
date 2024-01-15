@@ -3,14 +3,15 @@
 	flex-direction: column;
 	max-width: 85vw;
 	margin-inline: auto;
+ gap: 4rem; 
+ padding: clamp(3rem, 5vh, 6rem) 0;
 }
 .sec__vacance__talent {
 	text-align: center;
 	max-height: max-content;
 	width: 100%;
 	justify-content: start;
-	flex-direction: column;
-	padding: clamp(3rem, 5vh, 6rem) 0;
+	flex-direction: column;	
 	gap: clamp(2rem, 5vh, 4rem);
 }
 .sec__vacance__talent > div {
@@ -37,7 +38,7 @@
 	opacity: 0.05;
 }
 .sec__vacance__title {
-	font-size: clamp(1.225rem, 4vw, 2.25rem);
+	font-size: var(--h2-ft-sz);
 	font-weight: 600;
 	line-height: 2.25rem;
 }
@@ -47,7 +48,5 @@
 }
 
 @media (max-width: 480px) {
-	@supports (aspect-ratio: 1) {
 		.sec__vacance__talent > img {width: 100vw;}
-	}
 }
