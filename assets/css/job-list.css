@@ -1,0 +1,36 @@
+.sec__vacance__jobs{
+	--v-gap: .5rem;
+	gap: var(--v-gap);
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-evenly;
+  width: 60%;
+}
+.sec__vacance__jobs ul{width: 100%;}
+.sec__vacance__jobs h2{
+	font-size: clamp(1rem, 3vw, 1.25rem);
+	color: var(--heading-clr);
+}
+.sec__vacance__jobs h2:nth-of-type(2){
+	margin-top: calc(var(--v-gap) + .3rem);
+}
+.job__item{
+	justify-content: space-between;
+	gap: 2rem;
+	border: 1px solid #EAECF0;
+	padding: 1.5rem 1.5rem;
+	margin-block: 1rem;
+	border-radius: 1rem;
+}
+.job__item > h3{
+	color: var(--heading-clr);
+	font-size: clamp(.9rem, 3vw, 1.125rem);
+}
+.job__item > p{
+	color: var(--nav-links-clr);
+	font-size: clamp(.880rem, 3vw, 1rem);
+}
+.job__item > p > span{margin-left: 1rem;}
+@media (max-width: 480px){
+	.sec__vacance__jobs{width: 100%;}
+}
