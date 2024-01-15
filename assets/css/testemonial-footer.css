@@ -1,0 +1,32 @@
+.sec__testemonial{
+	--smaller-font: 0.875rem;
+	gap: 2rem;
+	max-width: 85vw;
+	margin-inline: auto;
+	text-align: center;
+	padding: clamp(1rem, 5vw, 4rem);
+	margin-bottom: 6rem;
+	border-radius: 1rem;
+	background-color: rgba(125, 25, 25, .03);
+}
+.sec__testemonial div{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	gap: 1rem;
+}
+.sec__testemonial span{
+	color: var(--register-clr);
+	font-size: var(--smaller-font);
+	font-weight: 600;
+}
+.sec__testemonial h2, .sec__testemonial h3{color: var(--heading-clr);}
+.sec__testemonial h2{font-size: var(--h2-ft-sz); font-weight: 500;}
+.sec__testemonial img{
+	border-radius: 12.5rem;
+	object-fit: cover;
+	width: 3.5rem;
+	height: 3.5rem;
+}
+.sec__testemonial h3{font-size: 1rem; font-weight: 500;}
+.sec__testemonial p{font-size: var(--smaller-font); color: var(--nav-links-clr)}
