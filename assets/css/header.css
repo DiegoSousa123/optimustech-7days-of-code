@@ -94,7 +94,7 @@
 		border-bottom-color: var(--register-clr);
 	}
 	.nav__account {display: contents;flex-direction: column;}
-	 .nav__link--register {
+	 a.nav__link--register {
 		color: var(--nav-links-clr);
 		background: none;
 		font-weight: 600;
