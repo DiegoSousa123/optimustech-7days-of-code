@@ -30,3 +30,13 @@
 }
 .sec__testemonial h3{font-size: 1rem; font-weight: 500;}
 .sec__testemonial p{font-size: var(--smaller-font); color: var(--nav-links-clr)}
+/*footer*/
+.sec__form{gap: 2rem;padding: 6rem 0;background-color: #F9FAFB;text-align: center;}
+.sec__form h2{font-size: var(--h2-ft-sz);line-height: 2.5;color: var(--heading-clr);}
+.sec__form p{color: var(--nav-links-clr);font-size: clamp(.950rem, 3vw, 1.25rem);}
+.sec__form form{justify-content: space-around;width: 30%;}
+.sec__form label{position: absolute;left: -1000px;width: 1px;overflow: hidden;}
+.sec__form__input{color: var(--nav-links-clr);text-align: left;flex: 2;margin-right: clamp(.8rem, 2vw, 1rem);border: 1px solid #98a2b3;border-radius: .5rem;	box-shadow: 0 1px 2px 0 rgba(16, 24, 40, .05);padding: .75rem .875rem .75rem 1rem;}
+.sec__form button.nav__link--register{border: 0;cursor: pointer; font-weight: 600; padding-top: .75rem; padding-bottom: .75rem;}
+p.copy{font-size: clamp(.850rem, 2vw, 1rem);color: #98a2b3;}
+@media (max-width: 700px){.sec__form{padding: 3rem calc(100vw - 85vw);}.sec__form h2, .sec__form p:not(.copy){line-height: 1.5;margin-block: 1rem;}}
