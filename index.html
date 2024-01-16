@@ -12,10 +12,14 @@
 		<link rel="stylesheet" href="assets/css/header.css" />
 		<link rel="stylesheet" href="assets/css/section-heading.css" />
 		<link rel="stylesheet" href="assets/css/section-metric.css" />
-		<link rel="stylesheet" href="assets/css/section-vagas.css" />
-		<link rel="stylesheet" href="assets/css/job-list.css" />
-		<link rel="stylesheet" href="assets/css/testemonial-footer.css"/>
-
+		<link rel="preload" as="style" href="assets/css/section-vagas.css" onload="this.onload=null;this.rel='stylesheet'" />
+		<link rel="preload" as="style" href="assets/css/job-list.css" onload="this.onload=null;this.rel='stylesheet'"/>
+		<link rel="preload" as="style" href="assets/css/testemonial-footer.css" onload="this.onload=null;this.rel='stylesheet'"/>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/section-vagas.css"/>
+			<link rel="stylesheet" href="assets/css/job-list.css"/>
+			<link rel="stylesheet" href="assets/css/testemonial-footer.css"/>
+		</noscript>
 		<title>OptimusTech</title>
 		<meta name="description" content="OptimusTech: Levando o melhor da tecnologia até você." />
 	</head>
@@ -98,10 +102,9 @@
 						<p class="sec__vacance__text">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
 					</div>
 					<img
-						src="assets/image/Image.jpg"
+						src="assets/image/Image.webp"
 						width="1216"
-						height="400"
-						type="image/jpg"
+						height="400"			
 						loading="lazy"
 						alt="Uma equipe reunida em volta de uma mesa, todos olhando para a câmera e sorrindo." />
 				</div>
@@ -142,7 +145,7 @@
 					<h2>OptimusTech se importa com a saúde de seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
 				</div>
 				<div>
-					<img src="assets/image/woman.jpg" loading="lazy" width="512" height="512" alt="Uma desenvolvedora de cabelos ruivos em frente a seu notebook." />
+					<img src="assets/image/woman.webp" loading="lazy" width="512" height="512" alt="Uma desenvolvedora de cabelos ruivos em frente a seu notebook." />
 					<h3>Júlia Castro</h3>
 					<p>Desenvolvedora Web</p>
 				</div>
