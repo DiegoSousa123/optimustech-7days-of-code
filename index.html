@@ -6,7 +6,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet';" />
-		<script src="https://kit.fontawesome.com/773b0dc44b.js" crossorigin="anonymous" defer></script>
 		<link rel="stylesheet" href="assets/css/reset.css" />
 		<link rel="stylesheet" href="assets/css/flex-container.css" />
 		<link rel="stylesheet" href="assets/css/header.css" />
@@ -37,7 +36,11 @@
 			</div>
 			<!-- HAMBURGER BUTTON FOR MOBILE DEVICES -->
 			<button class="js-hamburger" title="Abrir menu de navegação" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="container-nav">
-				<i class="fa-solid fa-bars fa-sm"></i>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+					<line stroke-width="8" stroke="var(--nav-links-clr)" x1="20" y1="25" x2="80" y2="25" />
+					<line stroke-width="8" stroke="var(--nav-links-clr)" x1="20" y1="50" x2="80" y2="50"/>
+					<line stroke-width="8" stroke="var(--nav-links-clr)" x1="20" y1="75" x2="80" y2="75"/>
+				</svg>
 			</button>
 			<!-- CONTAINER NAV -->
 			<div class="c-nav flex--centered" id="container-nav" aria-live="polite" role="region">
@@ -110,7 +113,7 @@
 				</div>
 				<!-- JOBS DIVISION -->
 				<div class="sec__vacance__jobs flex--centered" aria-label="Opções de vagas" role="region">
-					<h2>Design <i class="fa-solid fa-arrow-turn-down"></i></h2>
+					<h2>Design &cudarrr;</h2>
 					<ul aria-label="Vagas disponíveis em Design">
 						<li class="job__item flex-col-start">
 							<h3>Product Design</h3>
@@ -121,7 +124,7 @@
 							<p>Full-time <span>Faixa salarial: R$ 6.000</span></p>
 						</li>
 					</ul>
-					<h2>Desenvolvimento de Software <i class="fa-solid fa-arrow-turn-down"></i></h2>
+					<h2>Desenvolvimento de Software &cudarrr;</h2>
 					<ul aria-label="Vagas disponíveis em Desenvolvimento de Software">
 						<li class="job__item flex-col-start">
 							<h3>Desenvolvedor(a) iOS</h3>
