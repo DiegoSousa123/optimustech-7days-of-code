@@ -8,12 +8,13 @@
 .sec__header{
 	padding-block: var(--lg-sec-pblock);
 	display: flex;
+ gap: 1.5rem;
 	gap: var(--sec-gap-items);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width: var(--sec-width);
-	margin-inline: auto; 
+	margin: 0 auto; 
 }
 .sec__header__subtitle{
 	color: var(--register-clr);
@@ -33,7 +34,7 @@
 	color: var(--nav-links-clr);
 }
 @media (min-width: 320px) and (max-width: 768px){
-	main{padding-top: var(--small-ht-header);}
+	main{padding-top: 4rem; padding-top: var(--small-ht-header);}
 	.sec__header{width: max(90vw, 95vw);}
 	.sec__header__title{text-align: center;}
 	.sec__header__p{max-width: 80%;line-height: 1.5; font-size: clamp(.890rem, 3vw, 1.35rem);}
