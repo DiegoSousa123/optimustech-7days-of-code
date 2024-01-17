@@ -36,5 +36,5 @@
 	main{padding-top: var(--small-ht-header);}
 	.sec__header{width: max(90vw, 95vw);}
 	.sec__header__title{text-align: center;}
-	.sec__header__p{max-width: 80%;line-height: 1.5;}
+	.sec__header__p{max-width: 80%;line-height: 1.5; font-size: clamp(.890rem, 3vw, 1.35rem);}
 }
