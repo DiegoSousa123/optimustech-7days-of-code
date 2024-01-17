@@ -102,24 +102,22 @@
 		border-radius: 0;
 	}
 	.js-hamburger {
-		width: 40px;
+		width: 60px;
 		height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		color: var(--nav-links-clr);
 		background-color: transparent;
 		border: none;
-		font-size: 2rem;
 		transform-origin: center;
 	}
-	@keyframes h {
-		0% {transform: rotateY(0deg);}
-		100% {transform: rotateY(60deg);}
+	.js-hamburger svg{
+		width: 60%;
+		height: 100%;
+		stroke-linecap: round;
 	}
-	.js-hamburger--active {
-		animation: h 100ms linear forwards;
-		color: var(--register-clr);
+	.js-hamburger--active svg line{
+		stroke: var(--register-clr);
 	}
 	.c-nav--visible {display: flex;}
 }
