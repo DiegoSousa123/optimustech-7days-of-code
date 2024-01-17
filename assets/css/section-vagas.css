@@ -2,8 +2,9 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	max-width: 85vw;
-	margin-inline: auto;
+	margin: 0 auto;
  gap: 4rem; 
+ padding: 4rem 0;
  padding: clamp(3rem, 5vh, 6rem) 0;
 }
 .sec__vacance__talent {
@@ -12,6 +13,7 @@
 	width: 100%;
 	justify-content: start;
 	flex-direction: column;	
+ gap: 3rem;
 	gap: clamp(2rem, 5vh, 4rem);
 }
 .sec__vacance__talent > div {
