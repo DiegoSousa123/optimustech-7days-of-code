@@ -10,6 +10,15 @@
 --h2-ft-sz: clamp(1.225rem, 4vw, 2.25rem);
 	--small-ht-header: clamp(2rem, 8vh, 4rem);
 }
+@keyframes openMenu{
+ 0%{
+   transform: translateX(200vw);
+ } 
+ 100%{
+	 visibility: visible;
+	 transform: translateX(0);
+ }
+}
 .header {
 	position: fixed;
 	top: 0;
@@ -59,7 +68,7 @@
 		padding: 0 20px;
 	}
 	.c-nav {
-		display: none;
+		visibility: hidden;
 		--width: 60vw;
 		flex-direction: column;
 		position: absolute;
@@ -119,5 +128,10 @@
 	.js-hamburger--active svg line{
 		stroke: var(--register-clr);
 	}
-	.c-nav--visible {display: flex;}
+	.c-nav--visible {
+		animation: openMenu 300ms ease forwards;
+	}
+	.repo__link > a{
+		font-size: .8rem;
+	}
 }
